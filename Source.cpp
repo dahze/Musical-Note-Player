@@ -5,7 +5,6 @@
 
 using namespace std;
 
-
 // Piece Selector
 string selector(int& count)
 {
@@ -86,7 +85,6 @@ string selector(int& count)
 	}
 }
 
-
 // Octave Selector
 int octaveselect()
 {
@@ -119,7 +117,6 @@ int octaveselect()
 
 	return octave;
 }
-
 
 // Tempo Selector
 int temposelect()
