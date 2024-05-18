@@ -21,6 +21,9 @@ using namespace std;
 The program includes standard libraries for input/output operations, file handling, and formatting. The `Windows.h` library is used for the `Sleep` and `Beep` functions.
 
 ### Piece Selector
+
+![Welcome](https://github.com/dahze/Musical-Note-Player/assets/169538762/891e1ed1-9479-43c9-856a-a925962665be)
+
 The `selector` function displays a welcome message (only on the first run) and presents a menu for selecting a musical piece. It reads the chosen piece from a corresponding text file and returns its content as a string.
 
 #### Custom Pieces
@@ -43,8 +46,12 @@ The `octaveselect` function allows the user to choose the pitch of the sound by 
 ### Tempo Selector
 The `temposelect` function prompts the user to set the tempo for playing the musical piece within the specified range (200 ms to 500 ms).
 
+![Choose](https://github.com/dahze/Musical-Note-Player/assets/169538762/7fd7aa1f-1095-4d9a-92bc-dc797b8588de)
+
 ### Piano Display
 The `display` function visually represents a simple piano keyboard layout.
+
+![Piano](https://github.com/dahze/Musical-Note-Player/assets/169538762/f5a79194-db14-4b97-9bfe-2cdbc07f9105)
 
 ### Frequency Checker
 The `frequencycheck` function determines the frequency of the note to be played based on the note character and the selected octave. It also prints a visual cue on the console representing the note.
@@ -98,3 +105,5 @@ int main()
     return 0;
 }
 ```
+
+![End](https://github.com/dahze/Musical-Note-Player/assets/169538762/7fccca69-9a36-4466-8645-1f678a95e7c5)
